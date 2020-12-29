@@ -9,8 +9,14 @@
 ./data/fileList.py | 生成数据的list.txt，存储的为(filename).(filetype)
 ./detect_occ/run.sh | 运行脚本，内部设置有训练和测试两种模式
 ./detect_occ/train.py | 训练设置
-./detect_occ/eval.py | 测试设置
+./detect_occ/test.py | 测试设置
 ./detect_occ/utils/custom_transforms.py | 数据增强的操作
+./detect_occ/utils/compute_loss.py | 计算loss的方法
+./experiments/configs | 存储yaml文件，设置参数
+./experiments/output | 存储训练后的模型
+./lib/dataset/occ_dataset.py | 重载DataSet
+./models | 定义模型结构
+
 
 
 ## DIY方法
