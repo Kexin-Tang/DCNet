@@ -115,9 +115,9 @@ class DCNetModel(nn.Module):
         deconv0 = self.crop(deconv1, conv0)
 
         out0_edge = self.out0_edge(deconv0)
-        out0_ori = self.out0_ori(deconv0)
+        # out0_ori = self.out0_ori(deconv0)
 
-        return out0_edge, out0_ori
+        return out0_edge
 
 
 class OutputBlock(nn.Module):
